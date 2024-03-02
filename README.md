@@ -2,10 +2,7 @@
 
 ## Purpose
 
-The purpose of the this project is to upgrade `StorageVictim` smart contract, a contract written to provide a decentralized storage solution where users can securely store data along with their address on the Ethereum blockchain and make it compatible with latest version in this case ```0.8.24```. It also shows how to conduct auditing of smart contracts, unit testings and security checks. 
-
-**View main contract** = 
-**View Smart Contract Audit report** = 
+The purpose of the this project is to upgrade `StorageVictim` smart contract, a contract written to provide a decentralized storage solution where users can securely store data along with their address on the Ethereum blockchain and make it compatible with a stable 0.8 version, in this case ```0.8.18```. It also shows how to conduct auditing of smart contracts, unit testings and security checks. 
 
 
 ## Overview
@@ -21,7 +18,7 @@ To interact with the `StorageVictim` contract, follow these steps:
 
 1. **Clone the Repository:** Clone this repository to your local machine using the following command:
    ```
-   git clone <repository_url>
+   git clone https://github.com/livinalt/contract-audit
    ```
 
 2. **Install Dependencies:** Install the required dependencies using npm:
@@ -48,6 +45,7 @@ To interact with the `StorageVictim` contract, follow these steps:
 - **store(uint256 _amount):** Allows users to store data along with a specified amount. The amount must be greater than zero.
 - **getStore():** Retrieves the stored data for the caller's address.
 - **getOwner():** Returns the owner's address.
+- **withdraw(uint256 _amount):** Allows the user to withdraw their savings.
 
 ### State Variables
 
